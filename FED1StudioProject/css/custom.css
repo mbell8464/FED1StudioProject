@@ -1,2 +1,41 @@
 ﻿body {
 }
+header {
+    background-color:navy;
+    color: lightgray;
+    text-align: center;
+}
+
+#bannerSlogan h1 {
+    color: crimson;
+    font-size: 30px;
+    
+}
+
+main {
+    background-color:gainsboro;
+}
+
+.infoTitle {
+    color: crimson;
+    border-top: solid;
+    border-bottom: solid;
+    border-top-color: black;
+    border-bottom-color: black;
+    padding: 3px;
+    
+    
+}
+
+.infoDesc {
+    color: navy;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-size: 27px;
+}
+
+
+
+
