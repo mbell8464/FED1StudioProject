@@ -1,4 +1,5 @@
 ﻿body {
+    
 }
 header {
     background-color:navy;
@@ -18,10 +19,10 @@ main {
 
 .infoTitle {
     color: crimson;
-    border-top: solid;
-    border-bottom: solid;
-    border-top-color: black;
-    border-bottom-color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black ;
+    /*border-top-color: black;
+    border-bottom-color: black;*/
     padding: 3px;
     
     
@@ -37,5 +38,32 @@ h1 {
 }
 
 
+/*Navigation styling*/
+a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
 
+a:hover, a:active, a:focus {
+    background-color: crimson;
+    color: white;
+    text-decoration: underline;
+}
 
+nav ul {
+    background-color: crimson;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+    nav ul li {
+        display: inline-block;
+        
+    }
+
+nav ul li a {
+    padding: 12px;
+    display: block;
+    
+}
