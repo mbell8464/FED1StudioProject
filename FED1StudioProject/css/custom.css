@@ -67,3 +67,21 @@ nav ul li a {
     display: block;
     
 }
+
+
+/*Contact list styling*/
+
+#contact ul li {
+    text-align: center;
+    list-style-type: none;
+}
+
+#contact ul li a {
+    padding: 12px;
+    display: block;
+}
+#contact ul #listItemOne, /*#listItemTwo,*/ #listItemThree {
+    /*background-color: crimson;*/
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
