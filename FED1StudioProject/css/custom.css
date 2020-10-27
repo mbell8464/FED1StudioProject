@@ -4,17 +4,30 @@
 header {
     background-color: #404040;
     color: #f2f2f2;
-    text-align: center;
+    text-align: left;
 }
 
 #bannerSlogan h1 {
     /*color: #d93030;*/
     font-size: 30px;
+    text-align: left;
+    vertical-align: text-bottom;
     
+}
+#bannerSlogan #headerOverlay {
+    background-image: url(../images/mlb_baseball.jpg);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: 4% center;         
+}
+
+#bannerSlogan h1, #bannerSlogan p{
+    margin: 7px 0 7px 150px;
 }
 
 #bannerSlogan h1 span {
-    color: #ffd700;
+        color: #ffd700;
+        font-family: 'Grenze Gotisch', cursive;
 }
 
 main {
@@ -40,6 +53,7 @@ h1 {
     text-align: center;
     font-size: 27px;
     color: #d93030;
+    font-family: 'Cinzel', serif;
 }
 
 h1, h4 {
@@ -50,13 +64,20 @@ h2 {
     /*color: #404040;*/
     color: #f2f2f2;
     text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
 }
 h3 {
     color: #ffd700;
+    font-family: 'Cinzel', serif;
 }
+h4 {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
 
 p {
     color: #f2f2f2;
+    font-family: 'Abel', sans-serif;
 }
 
 
@@ -86,8 +107,11 @@ nav ul {
     background-color: #0d0d0d;
     /*border-top: 3px solid black;
     border-bottom: 3px solid black;*/
-    
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
 }
+    
+
 nav ul li {
         display: inline-block;
         
@@ -142,9 +166,41 @@ nav
     float: right;
 }
 
+#rightColumn ul li {
+    font-family: 'Cinzel', serif;
+        
+}
+
 #leftColumn {
     width: 72%;
     border-right: solid white 2px;
     float: left;
     padding-right: 1em;
 }
+
+/*float and clear for company logo
+    .companyLogo {
+    float: left;
+    width: 40%;
+    padding-right: 1em;
+    border-right: solid white 5px;
+
+
+#cssLeftLogo {
+    border-right: solid white 5px;
+}*/
+
+
+
+.clear {
+    clear: both;
+}
+
+
+header img {
+    float: left;
+    /*margin: 1.5em;*/
+}
+
+/*Fonts*/
+
