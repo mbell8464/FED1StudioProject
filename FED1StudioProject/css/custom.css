@@ -22,7 +22,7 @@ main {
 }
 
 .infoTitle {
-    color: crimson;
+    /*color: #d93030;*/
     border-top: 2px solid #0d0d0d;
     border-bottom: 2px solid #0d0d0d ;
     /*border-top-color: black;
@@ -98,6 +98,7 @@ nav ul li a {
     display: block;
     
 }
+nav
 
 
 /*Contact list styling*/
@@ -124,6 +125,12 @@ nav ul li a {
 
 #listItemThree {
     border-top: solid #0d0d0d;
+}
+
+#listItemOne, #listItemTwo, #listItemThree {
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
 }
 
 
