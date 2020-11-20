@@ -71,6 +71,8 @@
     <Content Include="contact.html" />
     <Content Include="css\custom.css" />
     <Content Include="favicon.ico" />
+    <Content Include="images\backround-img1.jpg" />
+    <Content Include="images\baseball_field_background.jpg" />
     <Content Include="images\Company_logo.jpg" />
     <Content Include="images\favicon-32x32.png" />
     <Content Include="images\mlb_baseball.jpg" />

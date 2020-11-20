@@ -1,5 +1,8 @@
 ﻿body {
     background-color: #0d0d0d;
+    background: url(../images/backround-img1.jpg) no-repeat center fixed;
+    background-size: cover;
+    margin: 26px;
 }
 header {
     background-color: #404040;
@@ -31,7 +34,7 @@ header {
 }
 
 main {
-    background-color: #404040;
+    background-color: rgba(64,64,64, .6); 
 }
 
 .infoTitle {
@@ -202,5 +205,5 @@ header img {
     /*margin: 1.5em;*/
 }
 
-/*Fonts*/
+
 
